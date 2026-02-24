@@ -31,4 +31,404 @@
             line-height: 1.6;
         }
 
-        .page-wr
+        .page-wrap {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 16px 40px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 14px;
+            box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+            border: 1px solid var(--border-color);
+            padding: 32px 28px 36px;
+        }
+
+        @media (min-width: 768px) {
+            .card {
+                padding: 40px 44px 46px;
+            }
+        }
+
+        header {
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 18px;
+            margin-bottom: 26px;
+        }
+
+        .app-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 6px 10px;
+            border-radius: 999px;
+            background: rgba(47, 158, 91, 0.06);
+            color: var(--accent);
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+        }
+
+        .app-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--accent);
+        }
+
+        h1 {
+            font-size: 26px;
+            margin: 14px 0 4px;
+            color: var(--primary);
+        }
+
+        .subtitle {
+            font-size: 14px;
+            color: var(--text-muted);
+            margin-bottom: 4px;
+        }
+
+        .updated {
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        h2 {
+            font-size: 18px;
+            margin: 24px 0 8px;
+            color: var(--secondary);
+        }
+
+        p {
+            margin: 8px 0;
+            font-size: 15px;
+        }
+
+        ul {
+            margin: 8px 0 8px 20px;
+            padding: 0;
+        }
+
+        li {
+            margin: 4px 0;
+            font-size: 15px;
+        }
+
+        .section-tag {
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: var(--text-muted);
+            margin-top: 18px;
+            margin-bottom: 4px;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .highlight-box {
+            background: var(--code-bg);
+            border-radius: 10px;
+            padding: 10px 12px;
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-top: 10px;
+        }
+
+        .contact-block {
+            margin-top: 12px;
+            padding: 10px 12px;
+            border-radius: 8px;
+            background: rgba(31, 79, 123, 0.03);
+            border: 1px dashed rgba(31, 79, 123, 0.25);
+            font-size: 14px;
+        }
+
+        .footer-note {
+            margin-top: 26px;
+            font-size: 12px;
+            color: var(--text-muted);
+            border-top: 1px dashed var(--border-color);
+            padding-top: 12px;
+        }
+    </style>
+</head>
+<body>
+<div class="page-wrap">
+    <div class="card">
+        <header>
+            <div class="app-badge">
+                <span class="app-dot"></span>
+                JacketGenius · ElCageyApps
+            </div>
+            <h1>Privacy Policy</h1>
+            <div class="subtitle">How JacketGenius handles your information</div>
+            <div class="updated">Last updated: February 24, 2026</div>
+        </header>
+
+        <p>
+            This Privacy Policy explains how JacketGenius (the “App”), provided by ElCageyApps (“we”, “us”, or “our”),
+            handles information when you use the App.
+        </p>
+        <p>
+            By using the App, you agree to the practices described in this Privacy Policy.
+        </p>
+
+        <div class="section-tag">1. Who we are</div>
+        <h2>Developer information</h2>
+        <p>
+            JacketGenius is developed and published by ElCageyApps, based in Alberta, Canada.
+        </p>
+        <p>
+            If you have any questions about this Privacy Policy or our privacy practices, you can contact us at:
+        </p>
+        <div class="contact-block">
+            Email: <a href="mailto:elcageyapps@gmail.com">elcageyapps@gmail.com</a>
+        </div>
+
+        <div class="section-tag">2. Scope</div>
+        <h2>Where this policy applies</h2>
+        <p>
+            This Privacy Policy applies to the use of the JacketGenius App made available through the Apple App Store
+            and used by individuals in any country.
+        </p>
+        <p>
+            It is intended to reflect common privacy principles found in applicable laws and regulations in the United States,
+            Canada, the European Economic Area (EEA), the United Kingdom, and other jurisdictions, to the extent they apply
+            to our App.
+        </p>
+
+        <div class="section-tag">3. Collection</div>
+        <h2>No account and no server-side collection</h2>
+        <p>
+            We do not require you to create an account to use the App.
+        </p>
+        <p>
+            We do not operate backend servers that receive, store, or process your personal data from the App.
+            We do not collect, store, or process personal information about you on our own servers.
+        </p>
+
+        <div class="section-tag">4. Local storage</div>
+        <h2>Information stored on your device</h2>
+        <p>
+            The App allows you to create and manage information about your media collection
+            (for example, titles, artists, formats, images of covers, and any other details you choose to enter).
+        </p>
+        <p>
+            All such information is stored locally on your device and remains under your control.
+            We do not have access to this information and it is not transmitted to us or to any third‑party server
+            for storage.
+        </p>
+        <p>
+            Any backups of this data occur only through your device’s operating system or backup services
+            (for example, iCloud or other device backup solutions you use). We do not control or access those backups.
+        </p>
+
+        <div class="section-tag">5. Tracking</div>
+        <h2>No tracking, analytics, or advertising</h2>
+        <p>
+            We do not collect analytics data (such as usage statistics, crash logs tied to an identifier,
+            or behavioral tracking) through the App.
+        </p>
+        <p>
+            We do not use cookies, mobile identifiers, or similar tracking technologies for advertising or analytics
+            within the App.
+        </p>
+        <p>
+            We do not show third‑party advertising in the App and do not share data with advertising networks.
+        </p>
+
+        <div class="section-tag">6. AI services</div>
+        <h2>Use of AI and third‑party providers</h2>
+        <p>
+            The App may offer AI‑powered features (for example, assistance to help identify or describe media) using
+            services provided by third‑party AI providers such as OpenAI (via the platform used to build the App).
+        </p>
+        <p>
+            When you use AI features, the App may send the content of your request
+            (for example, text you input or descriptions of your media) to the AI service in order to generate a response.
+            The information sent is limited to what is necessary for the AI service to provide the requested functionality.
+        </p>
+        <p>
+            These AI services process your data as independent third‑party providers, under their own terms and privacy
+            policies. We do not use AI providers to build profiles of you for marketing or advertising, and we do not
+            combine AI‑processed information with any server‑side profiles, because we do not maintain such profiles.
+        </p>
+        <p>
+            We encourage you not to include sensitive personal information in AI queries. If you choose to do so,
+            you do so at your own discretion.
+        </p>
+        <div class="highlight-box">
+            Note: You can review the applicable third‑party AI provider’s privacy policy on their website to understand
+            how they handle your data.
+        </div>
+
+        <div class="section-tag">7. External services</div>
+        <h2>Links and integrations</h2>
+        <p>
+            The App may provide links or deep links to external services or apps
+            (for example, Apple Music, Spotify, or websites) by passing only the minimum metadata necessary
+            (such as an artist name, track, or album identifier) to open the relevant item.
+        </p>
+        <p>
+            When you open or use these external services, their own terms and privacy policies will apply.
+            We do not control how those external services handle your data.
+        </p>
+
+        <div class="section-tag">8. Children</div>
+        <h2>Children and users of all ages</h2>
+        <p>
+            The App is designed to be suitable for a general audience and can be used by individuals of all ages.
+            It is not specifically directed at children as its primary audience.
+        </p>
+        <p>
+            We do not knowingly collect personal information about users, including children, on our own servers,
+            because the App does not send personal data to us.
+        </p>
+        <p>
+            If you are a parent or guardian and you believe that your child has provided personal information to us
+            directly (for example, by contacting us by email), please contact us at
+            <a href="mailto:elcageyapps@gmail.com">elcageyapps@gmail.com</a> so we can address your request.
+        </p>
+
+        <div class="section-tag">9. Legal bases</div>
+        <h2>Legal bases and purposes (where required)</h2>
+        <p>
+            Because we do not collect or process your personal information on our own servers through the App,
+            we generally do not act as a “controller” of your in‑App media collection data under certain privacy laws
+            (such as the GDPR or UK GDPR).
+        </p>
+        <p>
+            If you choose to contact us (for example, by email), we may process the information you provide
+            (such as your email address and the contents of your message) for the following purposes:
+        </p>
+        <ul>
+            <li>To respond to your inquiries or support requests.</li>
+            <li>To maintain basic internal records of communications.</li>
+        </ul>
+        <p>
+            In jurisdictions that require a legal basis for processing, we rely on our legitimate interests in operating
+            and improving the App and providing customer support, and/or on your consent where applicable.
+        </p>
+
+        <div class="section-tag">10. Your rights</div>
+        <h2>Your rights and choices</h2>
+        <p>
+            Because your media collection data is stored locally on your device, you can manage it directly. Depending
+            on your device and operating system, you can:
+        </p>
+        <ul>
+            <li>View, edit, or delete entries from within the App.</li>
+            <li>Delete the App, which will normally remove the App’s locally stored data from your device
+                (subject to any device backup or restore features you use).</li>
+        </ul>
+        <p>
+            If you contact us, you may have rights under applicable law, which can include:
+        </p>
+        <ul>
+            <li>The right to request access to personal information we hold about you.</li>
+            <li>The right to request correction or deletion of that information.</li>
+            <li>The right to object to or restrict certain types of processing.</li>
+            <li>The right to withdraw consent where processing is based on consent.</li>
+            <li>The right to lodge a complaint with a supervisory or regulatory authority.</li>
+        </ul>
+        <p>
+            To exercise these rights in relation to information we hold (for example, emails you have sent us),
+            you can contact us at <a href="mailto:elcageyapps@gmail.com">elcageyapps@gmail.com</a>.
+            We may need to verify your identity before responding to your request.
+        </p>
+        <p>
+            For data stored only on your device, you can exercise your rights by using the App’s features or your
+            device settings (for example, by editing or deleting in‑App data, or uninstalling the App).
+        </p>
+
+        <div class="section-tag">11. Security</div>
+        <h2>Data security</h2>
+        <p>
+            We design the App so that your media collection data remains on your device and is not transmitted
+            to our own servers.
+        </p>
+        <p>
+            You are responsible for securing your device and any backups (for example, by using strong passwords,
+            device locks, and secure backup settings).
+        </p>
+        <p>
+            When you contact us by email, we take reasonable measures to protect the information we receive,
+            but no method of transmission or storage is completely secure.
+        </p>
+
+        <div class="section-tag">12. International</div>
+        <h2>International users</h2>
+        <p>
+            The App may be used by users in many countries. Because we do not operate backend servers for the App’s
+            normal use, we do not transfer your in‑App media collection data across borders. That data remains on your
+            device and is subject to the privacy and security settings of your device and backup services.
+        </p>
+        <p>
+            If you contact us from outside Canada, your communication (for example, email) may be processed in Canada
+            and any other location where our email provider or service providers operate. We will handle such information
+            in accordance with this Privacy Policy and applicable law.
+        </p>
+
+        <div class="section-tag">13. Retention</div>
+        <h2>Retention of information</h2>
+        <p>
+            We do not retain your in‑App media collection data on our servers, as we do not receive it.
+        </p>
+        <p>
+            If you contact us, we may retain your email and related information for as long as necessary to handle your
+            inquiry, resolve issues, maintain business records, or comply with legal obligations.
+            When information is no longer needed, we will delete or anonymize it where reasonably practicable.
+        </p>
+
+        <div class="section-tag">14. Do Not Track</div>
+        <h2>Do Not Track and similar signals</h2>
+        <p>
+            Because we do not track users across third‑party apps or websites and do not use tracking technologies for
+            analytics or advertising, our App does not respond to “Do Not Track” signals in a special way.
+        </p>
+        <p>
+            We do not use these signals to alter behavior because no cross‑site tracking is performed.
+        </p>
+
+        <div class="section-tag">15. Changes</div>
+        <h2>Changes to this Privacy Policy</h2>
+        <p>
+            We may update this Privacy Policy from time to time. When we do, we will revise the “Last updated” date
+            at the top.
+        </p>
+        <p>
+            If we make material changes to how we describe our practices, we will take reasonable steps to make you
+            aware of those changes, for example by updating the policy linked from our App Store listing or our website.
+        </p>
+        <p>
+            Your continued use of the App after an updated Privacy Policy has been made available will be considered
+            acceptance of the updated terms.
+        </p>
+
+        <div class="section-tag">16. Contact</div>
+        <h2>How to contact us</h2>
+        <p>
+            If you have any questions, concerns, or requests regarding this Privacy Policy or our privacy practices,
+            you can contact us at:
+        </p>
+        <div class="contact-block">
+            Email: <a href="mailto:elcageyapps@gmail.com">elcageyapps@gmail.com</a>
+        </div>
+
+        <div class="footer-note">
+            This Privacy Policy is intended as a general explanation of how JacketGenius handles information.
+            It does not create contractual or legal rights beyond those required under applicable law.
+        </div>
+    </div>
+</div>
+</body>
+</html>
